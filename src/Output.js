@@ -4,6 +4,7 @@ import { CopiedContext } from "./App";
 
 function Output({ entry, input }) {
   const copiedContext = useContext(CopiedContext);
+  // eslint-disable-next-line no-unused-vars
   const { copied, setCopied } = copiedContext;
   return (
     <CopyToClipboard
