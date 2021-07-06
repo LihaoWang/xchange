@@ -28,9 +28,9 @@ function Output({ entry, input }) {
   );
 }
 
-function copyTo(v) {
-  navigator.clipboard.writeText(v);
-}
+// function copyTo(v) {
+//   navigator.clipboard.writeText(v);
+// }
 
 // function showText(setCopied) {
 //   setCopied(true, () => {

@@ -24,6 +24,7 @@ function App() {
 
   useEffect(() => {
     getCurrency();
+    //eslint-disable-next-line
   }, [input, base]);
   const getCurrency = async () => {
     const res = await axios.get(
