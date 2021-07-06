@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.output {
+  padding: 20px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  /* border-color: grey;
+  border-width: 3px;
+  border-style: solid; */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.output:hover {
+  background-color: #37517e;
+  box-shadow: 0px 15px 20px #37517e75;
+  color: #fff;
+  transform: translateY(-7px);
+}
+/* p {
+  color: black;
+} */
+.content {
+  padding-bottom: 120px;
+}
+.output-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  margin: 50px auto;
+}
+
+.convert-button {
+  background-color: white;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 2px white;
+}
+.convert-button:hover {
+  background-color: #37517e;
+  color: white;
+  /* border-color: black; */
+}
+
+.input-box {
+  border: none;
+  box-shadow: none;
+  width: 200px;
+  height: 40px;
+
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px;
+}
+.input-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+h1 {
+  color: white;
+}
+.input-bg {
+  background-color: #37517e;
+  padding-bottom: 50px;
+}
+.logo {
+  width: 180px;
+}
+.navBar {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.alert {
+  color: #37517e;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.fas {
+  margin-right: 5px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #37517e;
+  color: white;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+a {
+  color: white;
+}
+.footer-text {
+  font-size: 20px;
+  text-align: center;
+}
+.fab {
+  font-size: 30px;
+  margin: 5px 5px 15px 5px;
+}
+.currency-flag-btc {
+  background-image: url("general-flag.png") !important;
+}
+/* @media screen and (max-width: 600px) {
+  .footer {
+    position: relative;
+  }
+} */
