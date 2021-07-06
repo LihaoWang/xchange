@@ -79,7 +79,7 @@ h1 {
 }
 .input-bg {
   background-color: #37517e;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .logo {
   width: 180px;
@@ -97,6 +97,11 @@ select {
   border: none;
   border-radius: 5px;
   margin-right: 20px;
+}
+.tip {
+  color: white;
+  margin-top: 20px;
+  font-weight: 500;
 }
 .alert {
   color: #37517e;

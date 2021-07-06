@@ -41,6 +41,7 @@ function App() {
             <Nav onChangeBase={onChangeBase} />
             <h1>Currency Conversion from {base}</h1>
             <Input onAdd={onAdd} output={getCurrency} />
+            <p className="tip">*Click currency cards to copy results</p>
           </div>
           {copied ? (
             <div className="alert">
