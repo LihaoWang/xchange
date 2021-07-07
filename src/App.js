@@ -14,6 +14,7 @@ function App() {
   const [currency, setCurrency] = useState([]);
   const [base, setBase] = useState(["USD"]);
   const [copied, setCopied] = useState(false);
+  const [turboMode, setTurboMode] = useState(false);
   const onAdd = (userInput) => {
     setInput(userInput);
     console.log(userInput);
@@ -25,11 +26,12 @@ function App() {
   useEffect(() => {
     getCurrency();
     //eslint-disable-next-line
-  }, [input, base]);
+  }, [input, base, turboMode]);
   const getCurrency = async () => {
-    const res = await axios.get(
-      `https://api.exchangerate.host/latest?base=${base}&source=ecb`
-    );
+    const apiLink = turboMode
+      ? `https://api.exchangerate.host/latest?base=${base}`
+      : `https://api.exchangerate.host/latest?base=${base}&source=ecb`;
+    const res = await axios.get(apiLink);
     setCurrency(Object.entries(res.data.rates).sort());
   };
 
@@ -55,6 +57,14 @@ function App() {
             ))}
           </div>
           <Footer />
+          <button
+            className="turboButton"
+            onClick={() => {
+              turboMode ? setTurboMode(false) : setTurboMode(true);
+            }}
+          >
+            {turboMode ? "Show less" : "Load more"}
+          </button>
         </div>
       </div>
     </CopiedContext.Provider>

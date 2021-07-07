@@ -144,7 +144,43 @@ a {
   font-size: 30px;
   margin: 5px 5px 15px 5px;
 }
-.currency-flag-btc {
+
+.turboButton {
+  padding: 12px 15px;
+  background-color: #37517e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.turboButton:hover {
+  background-color: #002566;
+}
+
+.currency-flag-btc,
+.currency-flag-clf,
+.currency-flag-cnh,
+.currency-flag-cuc,
+.currency-flag-ggp,
+.currency-flag-imp,
+.currency-flag-jep,
+.currency-flag-lsl,
+.currency-flag-mru,
+.currency-flag-pab,
+.currency-flag-sdg,
+.currency-flag-ssp,
+.currency-flag-stn,
+.currency-flag-tmt,
+.currency-flag-ves,
+.currency-flag-xag,
+.currency-flag-xau,
+.currency-flag-xdr,
+.currency-flag-xpd,
+.currency-flag-xpt,
+.currency-flag-zwl {
   background-image: url("general-flag.png") !important;
 }
 /* @media screen and (max-width: 600px) {
