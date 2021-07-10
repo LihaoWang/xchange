@@ -183,8 +183,21 @@ a {
 .currency-flag-zwl {
   background-image: url("general-flag.png") !important;
 }
-/* @media screen and (max-width: 600px) {
-  .footer {
-    position: relative;
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
   }
-} */
+  .logo {
+    width: 150px;
+  }
+  .output-wrap {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .footer-text {
+    font-size: 16px;
+  }
+  .fab {
+    font-size: 25px;
+  }
+}
