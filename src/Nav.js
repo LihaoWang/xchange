@@ -8,30 +8,20 @@ function Nav({ onChangeBase }) {
   };
   return (
     <div className="navBar">
-      {/* <h2>Base Currency</h2> */}
       <img className="logo" alt="logo" src="xchange.png" />
-      {/* <div className="navbar-item">
-          <span className="icon is-large">
-            <i className="fas fa-dollar-sign fa-2x"></i>
-          </span>
-        </div> */}
-      {/* <div className="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">Change base currency</a>
-          <div className="navbar-dropdown">
-            <a className="navbar-item">USD</a>
-            <a className="navbar-item">CAD</a>
-            <a className="navbar-item">HKD</a>
-          </div>
-        </div> */}
       <div>
         <div className="select">
           <select onChange={changeBase} id="lang" value={base}>
-            <option value="USD">USD</option>
-            <option value="CNY">CNY</option>
-            <option value="HKD">HKD</option>
-            <option value="EUR">EUR</option>
-            <option value="JPY">JPY</option>
+            <option value="AUD">AUD</option>
             <option value="CAD">CAD</option>
+            <option value="CNY">CNY</option>
+            <option value="EUR">EUR</option>
+            <option value="HKD">HKD</option>
+            <option value="JPY">JPY</option>
+            <option value="KRW">KRW</option>
+            <option value="INR">INR</option>
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
           </select>
         </div>
       </div>
