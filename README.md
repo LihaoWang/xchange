@@ -1,7 +1,7 @@
 
 # Xchange Currency Converter
 
-**Demo:** [https://x-change.xyz](x-change.xyz)
+**Demo:** [https://x-change.xyz](https://www.x-change.xyz)
 
 Xchange is a **unique** currency converter app that displays up to 170 currency exchange rates on one page. Users can easily copy the converted results, for maximum efficiency.
 
