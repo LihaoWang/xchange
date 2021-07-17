@@ -3,6 +3,8 @@
 
 **Demo:** [https://x-change.xyz](https://www.x-change.xyz)
 
+![banner](images/mockup.png)
+
 Xchange is a **unique** currency converter app that displays up to 170 currency exchange rates on one page. Users can easily copy the converted results, for maximum efficiency.
 
 Thanks to [exchangerate.host](https://exchangerate.host/) for providing the free exchange rates API.
